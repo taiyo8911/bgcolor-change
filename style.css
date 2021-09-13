@@ -1,0 +1,25 @@
+.main {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20vh;
+    display: flex;
+    animation: blinkAnimeS1 0.5s infinite alternate;
+}
+
+@keyframes blinkAnimeS1 {
+    0% {
+        background: yellow;
+        color: red;
+    }
+    100% {
+        background: black;
+        color: red;
+    }
+}
+
+.white {
+    color: white;
+}
